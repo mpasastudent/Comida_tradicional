@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝑆𝑎𝑏𝑜𝑟𝑒𝑠 𝐷𝑒𝑙 𝐸𝑐𝑢𝑎𝑑𝑜𝑟</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#8B0000;
+            color:white;
+            text-align:center;
+            padding:25px;
+        }
+
+        header h1{
+            margin-bottom:10px;
+        }
+
+        .contenedor{
+            width:90%;
+            max-width:1200px;
+            margin:30px auto;
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            gap:25px;
+        }
+
+        .plato{
+            background:white;
+            border-radius:12px;
+            overflow:hidden;
+            box-shadow:0 5px 15px rgba(0,0,0,.2);
+            transition:0.3s;
+        }
+
+        .plato:hover{
+            transform:translateY(-5px);
+        }
+
+        .imagen-plato{
+            width:100%;
+            height:220px;
+            object-fit:cover;
+            display:block;
+        }
+
+        .contenido{
+            padding:20px;
+        }
+
+        .contenido h2{
+            color:#8B0000;
+            margin-bottom:10px;
+        }
+
+        .contenido p{
+            color:#555;
+            margin-bottom:15px;
+        }
+
+        .precio{
+            color:green;
+            font-size:22px;
+            font-weight:bold;
+        }
+
+        footer{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>𝑆𝑎𝑏𝑜𝑟𝑒𝑠 𝐷𝑒𝑙 𝐸𝑐𝑢𝑎𝑑𝑜𝑟</h1>
+    <p>De la paila a su paladar sabor tradicional</p>
+</header>
+<div>
+    <a href="/Comida_tradicional/index.html">INICIO</a>
+</div>
+
+<div class="contenedor">
+
+    <!-- Plato 1 -->
+    <div class="plato">
+        <img src="/Comida_tradicional/public/cf1fa44fbf8d9aafdba757700dfd5678.avif" alt="Lomo Saltado" class="imagen-plato">
+        <div class="contenido">
+            <h2>1. yahuarlocro</h2>
+            <p>Papas.Menudo de borrego,Lácteos y maní,Refrito y hierbas</p>
+            <div class="precio">$12.50</div>
+        </div>
+    </div>
+
+    <!-- Plato 2 -->
+    <div class="plato">
+        <img src="/Comida_tradicional/public/images.jpg" alt="Pollo a la Plancha" class="imagen-plato">
+        <div class="contenido">
+            <h2>2.cuy</h2>
+            <p>presa de cuy.papas con salsa de mani y su rica chicha</p>
+            <div class="precio">$22.00</div>
+        </div>
+    </div>
+
+    <!-- Plato 3 -->
+    <div class="plato">
+        <img src="/Comida_tradicional/public/hq720.jpg" alt="Ceviche Mixto" class="imagen-plato">
+        <div class="contenido">
+            <h2>3. Ceviche Mixto</h2>
+            <p>Pescado y mariscos marinados en limón con cebolla morada.</p>
+            <div class="precio">$14.00</div>
+        </div>
+    </div>
+
+    <!-- Plato 4 -->
+    <div class="plato">
+        <img src="/Comida_tradicional/public/images (1).jpg" alt="Arroz con Mariscos" class="imagen-plato">
+        <div class="contenido">
+            <h2>4. cangrejos con cocolon</h2>
+            <p>cangrejos. cocolon y unos patacones</p>
+            <div class="precio">$15.00</div>
+        </div>
+    </div>
+
+    <!-- Plato 5 -->
+    <div class="plato">
+        <img src="/Comida_tradicional/public/hq720 (1).jpg" alt="Hamburguesa Gourmet" class="imagen-plato">
+        <div class="contenido">
+            <h2>5.seco de chivo  </h2>
+            <p>Carne: Trozos de carne de chivo con hueso.Arroz: Arroz amarillo con achiote Complementos: Plátano maduro frito o asado, y aguacate.</p>
+            <div class="precio">$11.50</div>
+        </div>
+    </div>
+
+    <!-- Plato 6 -->
+    <div class="plato">
+        <img src="/Comida_tradicional/public/maxresdefault.jpg" alt="Pizza Familiar" class="imagen-plato">
+        <div class="contenido">
+            <h2>6. Fritada </h2>
+            <p>Carne de cerdo.Mote,Choclo,Plátano maduro frito,Encurtido o curtido,Otros extras: papas cocidas, llapingachos (tortillas de papa) o tostado.</p>
+            <div class="precio">$18.00</div>
+        </div>
+    </div>
+
+    <!-- Plato 7 -->
+    <div class="plato">
+        <img src="/Comida_tradicional/public/images (2).jpg" alt="Tallarines Alfredo" class="imagen-plato">
+        <div class="contenido">
+            <h2>7.Encebollado</h2>
+            <p>Pescado,Yuca,Cebolla AcompañamientosPara servir: Limón, chifles (plátano verde frito), aceite, más cilantro picado y salsa de ají</p>
+            <div class="precio">$13.00</div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>2026 Restaurante Sabor Gourmet | Menú a la Carta</p>
+</footer>
+
+</body>
+</html>
